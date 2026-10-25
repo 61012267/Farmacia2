@@ -8,7 +8,7 @@ WORKDIR /src
 COPY *.csproj ./
 RUN dotnet restore
 COPY . ./
-RUN dotnet publish -c Release -o /app/publish --no-restore
+RUN dotnet publish -c Release -o /app/publish 
 
 # ---------- Etapa de ejecución ----------
 FROM mcr.microsoft.com/dotnet/aspnet:${DOTNET_VERSION} AS final
