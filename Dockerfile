@@ -17,4 +17,4 @@ COPY --from=build /app/publish .
 ENV PORT=10000
 ENV ASPNETCORE_ENVIRONMENT=Production
 EXPOSE 10000
-ENTRYPOINT ["dotnet", "FarmaciaSalud.dll"]
+ENTRYPOINT ["dotnet", "Farmacia.dll"]
