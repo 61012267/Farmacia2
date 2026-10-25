@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5s49AeLd2G8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ximena\\Downloads\\semana15\\Farmacia\\Farmacia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ximena\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.12\\microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "C:\\Users\\Ximena\\.nuget\\packages\\microsoft.openapi\\2.12.0\\microsoft.openapi.2.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}
